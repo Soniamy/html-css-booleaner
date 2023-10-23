@@ -1,0 +1,11 @@
+.pattern{
+    height: 70px;
+    background-color: rgb(83, 145, 243);
+    background-image: url(../img/pattern.png);
+    background-size: 250px;
+    background-repeat:repeat-x;
+    margin:0;
+}
+body{
+    margin: 0;
+}
