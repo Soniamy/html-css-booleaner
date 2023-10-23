@@ -17,16 +17,18 @@ header img{
 }
 
 .title{
-    margin-bottom: 0;;
+    margin-bottom: 0;
+    font-size: 50px;
 }
 
 
 .author {
     margin-bottom: 15px;
-    font-size: 10px;
+    font-size: 25px;
+    font-style:normal;
 }
 
-.author h5, .author h6{
+.author p, .author h6{
     margin: 0;
    
 }
@@ -42,3 +44,35 @@ header img{
 .highlighted{
    background-color: yellow;
 }
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 1000px;
+    border-spacing: 5px; 
+    padding: 10px;
+}
+table thead tr {
+   background-color: rgb(0, 174, 255);
+   color: white;
+   font-size: 10px;
+   text-align: left;
+}
+table tbody tr{
+      background-color: rgba(22, 238, 254, 0.758);
+}
+table tbody tr:nth-child(even){
+    background-color: white;
+}
+table tbody td{
+    font-size: 15px;
+}
+
+.end{
+    color: rgba(119, 136, 153, 0.816);
+    font-weight:bold;
+}
+
+
+
+
+
