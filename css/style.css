@@ -2,10 +2,43 @@
     height: 70px;
     background-color: rgb(83, 145, 243);
     background-image: url(../img/pattern.png);
-    background-size: 250px;
+    background-size: 260px;
     background-repeat:repeat-x;
     margin:0;
+    position: relative;
 }
 body{
     margin: 0;
+}
+header img{
+    height: 30px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.title{
+    margin-bottom: 0;;
+}
+
+
+.author {
+    margin-bottom: 15px;
+    font-size: 10px;
+}
+
+.author h5, .author h6{
+    margin: 0;
+   
+}
+
+.author span{
+    color: rgb(18, 175, 247);
+}
+.footnote{
+    margin-top: 0;
+    font-style:normal;
+    font-size: 10px;
+}
+.highlighted{
+   background-color: yellow;
 }
