@@ -30,6 +30,7 @@ header img{
 
 .author p, .author h6{
     margin: 0;
+    color: lightslategray;
    
 }
 
@@ -70,6 +71,15 @@ table tbody td{
 .end{
     color: rgba(119, 136, 153, 0.816);
     font-weight:bold;
+}
+.monitor{
+    position: relative;
+}
+.title-images{
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 20px;
 }
 
 
